@@ -15,7 +15,7 @@
 
         peergos = pkgs.stdenv.mkDerivation rec {
           pname = "peergos";
-          version = "1.16.0";
+          version = "1.18.0";
           
           src = pkgs.fetchFromGitHub {
             owner = "Peergos";
@@ -69,8 +69,7 @@
             ];
             mainProgram = "peergos";
             maintainers = with pkgs.lib.maintainers; [
-              raspher
-              christoph-heiss
+              bridleiva
             ];
             platforms = pkgs.lib.platforms.all;
           };
