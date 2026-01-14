@@ -21,7 +21,7 @@
             owner = "Peergos";
             repo = "web-ui";
             rev = "v${version}";
-            hash = "sha256-v8Pw9AlxFDu4DqYeJlx+xF2PJe1xnQxHUVccXCn/jIs=";
+            hash = "sha256-zE7BsbZV1KIPD0sn1rSlMxzNF+JcucG382Ek/N9vO8o=";
             fetchSubmodules = true;
           };
 
