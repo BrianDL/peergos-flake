@@ -1,5 +1,5 @@
 {
-  description = "PeerGOS - P2P, secure file storage, social network and application protocol";
+  description = "Peergos - P2P, secure file storage, social network and application protocol";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
